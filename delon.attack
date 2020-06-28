@@ -84,12 +84,12 @@ def usage():
 	print("\033[20m  <===><===><===><===><===><===><===><===><===><===><===><===><===><===><===><===><===><===><===>   \033[0m")
 	
 	
-        print("\033[20m <============================================>::<==============================================> \033[0m")
+        print("\033[90m <============================================>::<==============================================> \033[0m")
         print("\033[90m #     instagram: t4llun             instagram: kak.saro                 snapchat:delon_m20     # \033[0m")
         print("\033[40m #     t.me/dil4m                    t.me/kak_saro                       snapchat:kak.saro      # \033[0m")
         print("\033[91m #                             EDITED BY: kak.del4m && kak.saro                                 # \033[0m")
         print("\033[95m #             WELCOM TO DELAM.ATTACK TOOLS  BAXER BEYT BO TOOLSY DELON.ATTACK                  # \033[0m")
-        print("\033[20m <============================================>::<==============================================> \033[0m")  
+        print("\033[90m <============================================>::<==============================================> \033[0m")  
 	
 	print (''' \033[92m	delon.attack Dos Script v.1 instagram:t4llun
         barpsyar nin la har har shtek yaxut halla bakar henan . \n
