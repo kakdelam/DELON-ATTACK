@@ -73,8 +73,21 @@ def dos2():
 
 
 def usage():
-	print (''' \033[92m	delon.attack Dos Script v.1
-	
+	print (''' \033[92m    ..                        ..                                                  
+ dF                    x .d88"                                                   
+'88bu.                  5888R          u.      u.    u.                          
+'*88888bu        .u     '888R    ...ue888b   x@88k u@88c.                        
+  ^"*8888N    ud8888.    888R    888R Y888r ^"8888""8888"                        
+ beWE "888L :888'8888.   888R    888R I888>   8888  888R                         
+ 888E  888E d888 '88%"   888R    888R I888>   8888  888R                         
+ 888E  888E 8888.+"      888R    888R I888>   8888  888R                         
+ 888E  888F 8888L        888R   u8888cJ888    8888  888R                         
+.888N..888  '8888c. .+  .888B .  "*888*P"    "*88*" 8888"                        
+ `"888*""    "88888%    ^*888%     'Y"         ""   'Y"                          
+    ""         "YP'       "%                                                     
+
+
+	delon.attack Dos Script v.1
 	usage : python3 hammer.py [-s] [-p] [-t]
 	-h : yarmati
 	-s : up servar
