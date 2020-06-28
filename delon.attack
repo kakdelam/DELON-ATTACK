@@ -70,23 +70,22 @@ def dos2():
 		item=w.get()
 		bot_hammering(random.choice(bots)+"http://"+host)
 		w.task_done()
-
-
+def logo():
+print("\033[91m oooooooooo.                     .       .                       oooo        
+print("\033[91m `888'   `Y8b                  .o8     .o8                       `888        
+print("\033[91m  888      888      .oooo.   .o888oo .o888oo  .oooo.    .ooooo.   888  oooo 
+print("\033[91m  888      888     `P  )88b    888     888   `P  )88b  d88' `"Y8  888 .8P'
+print("\033[91m  888      888      .oP"888    888     888    .oP"888  888        888888.
+print("\033[91m  888     d88' .o. d8(  888    888 .   888 . d8(  888  888   .o8  888 `88b.
+print("\033[91m  o888bood8P'   Y8P `Y888""8o   "888"   "888" `Y888""8o `Y8bod8P' o888o o888o
+print("\033[91m  <===><===><===><===><===><===><===>°•°<===><===><===><===><===><===><===><===>
+print("\033[91m  *.          Toolek Bo (DDos)attack    bar prs nem la Hala bakar henan.      .*
+print("\033[91m  *.      Instagram:@t4llun   &&   @kam.aql  t.me/del4m  Snapchat:delon_m20.  .*
+print("\033[91m  *.    Welcome to delon.attack tools <> baxer ben Bo toole delon.attack.     .*
+print("\033[91m  *.                 edit by : delon.     Ba hewae sud.                        *
+print("\033[91m  <===><===><===><===><===><===><===>°•°<===><===><===><===><===><===><===><===>
 def usage():
-	print (''' \033[92m    ..                        ..                                                  
- dF                    x .d88"                                                   
-'88bu.                  5888R          u.      u.    u.                          
-'*88888bu        .u     '888R    ...ue888b   x@88k u@88c.                        
-  ^"*8888N    ud8888.    888R    888R Y888r ^"8888""8888"                        
- beWE "888L :888'8888.   888R    888R I888>   8888  888R                         
- 888E  888E d888 '88%"   888R    888R I888>   8888  888R                         
- 888E  888E 8888.+"      888R    888R I888>   8888  888R                         
- 888E  888F 8888L        888R   u8888cJ888    8888  888R                         
-.888N..888  '8888c. .+  .888B .  "*888*P"    "*88*" 8888"                        
- `"888*""    "88888%    ^*888%     'Y"         ""   'Y"                          
-    ""         "YP'       "%                                                     
-
-
+	print (''' \033[92m
 	delon.attack Dos Script v.1
 	usage : python3 hammer.py [-s] [-p] [-t]
 	-h : yarmati
